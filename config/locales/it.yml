@@ -2,47 +2,47 @@ it:
   activerecord:
     models:
       shoppe/address:
-        one: Address
-        other: Addresses
+        one: Indirizzo
+        other: Indirizzi
       shoppe/country:
-        one: Country
-        other: Countries
+        one: Nazione
+        other: Nazioni
       shoppe/delivery_service:
-        one: Delivery service
-        other: Delivery services
+        one: Servizio di Spedizione
+        other: Servizi di Spedizione
       shoppe/delivery_service_price:
-        one: Delivery service price
-        other: Delivery service prices
+        one: Prezzo Servizio di Spedizione
+        other: Prezzi Servizio di Spedizione
       shoppe/order:
-        one: Order
-        other: Orders
+        one: Ordine
+        other: Ordini
       shoppe/order_item:
-        one: Order item
-        other: Order items
+        one: Oggetto Ordine
+        other: Oggetti Ordine
       shoppe/payment:
-        one: Payment
-        other: Payments
+        one: Pagamento
+        other: Pagamenti
       shoppe/product:
-        one: Product
-        other: Products
+        one: Prodotto
+        other: Prodotti
       shoppe/product_attribute:
-        one: Product attribute
-        other: Product attributes
+        one: Attributi Prodotto
+        other: Attibuti Prodotti
       shoppe/product_category:
-        one: Product category
-        other: Product categories
+        one: Categoria Prodotto
+        other: Categoria Prodotti
       shoppe/setting:
-        one: Setting
-        other: Settings
+        one: Impostazione
+        other: Impostazioni
       shoppe/stock_level_adjustment:
-        one: Stock Level Adjustment
+        one: Aggiusta Livello Magazzino
         other: Stock Level Adjustments
       shoppe/tax_rate:
-        one: Tax Rate
-        other: Tax Rates
+        one: Imposta
+        other: Imposte
       shoppe/user:
-        one: User
-        other: Users
+        one: Utente
+        other: Utenti
 
     attributes:
       shoppe/address:
