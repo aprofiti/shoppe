@@ -741,15 +741,15 @@ it:
 
     navigation:
       admin_primary:
-        customers: Customers
-        orders: Orders
-        products: Products
-        product_categories: Product Categories
-        delivery_services: Delivery Services
-        tax_rates: Tax Rates
-        users: Users
-        countries: Countries
-        settings: Settings
+        customers: Clienti
+        orders: Ordini
+        products: Prodotti
+        product_categories: Categoria Prodotti
+        delivery_services: Servizi di Spedizione
+        tax_rates: Imposte
+        users: Utenti
+        countries: Nazioni
+        settings: Impostazioni
 
     settings:
 
