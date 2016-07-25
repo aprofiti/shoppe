@@ -36,7 +36,7 @@ it:
         other: Impostazioni
       shoppe/stock_level_adjustment:
         one: Aggiusta Livello Magazzino
-        other: Stock Level Adjustments
+        other: Aggiusta Livelli Magazzino
       shoppe/tax_rate:
         one: Imposta
         other: Imposte
@@ -574,17 +574,17 @@ it:
       refund: Refund
 
     sessions:
-      admin_login: Admin Login
-      create_alert: The email address and/or password you have entered is invalid. Please check and try again.
-      back_to_login: Back to login
-      email:  E-Mail Address
+      admin_login: Login Amministrazione
+      create_alert: L'indirizzo email e/o la password che hai inserito sono errati. Perfavore controlla e riprova.
+      back_to_login: Indietro al Login
+      email:  Indirizzo e-mail
       login: Login
       password: Password
-      reset: Reset
-      reset_password: Reset your password
-      reset_password?: Reset your password?
-      reset_alert: No user was found matching the e-mail address
-      reset_notice: "An e-mail has been sent to %{email_address} with a new password"
+      reset: Resetta
+      reset_password: Resetta la tua password
+      reset_password?: Resettare la tua password?
+      reset_alert: Nessun utente corrisponde all'email inserita
+      reset_notice: "Una e-mail con la nuova password e stata inviata a %{email_address}"
 
     shared:
       back_to_shoppe: Back to Shoppe
@@ -797,6 +797,6 @@ it:
   layouts:
     shoppe:
       application:
-        goto: Goto
-        logged_in_as: "Logged in as %{user_name}"
+        goto: Vai a
+        logged_in_as: "Loggato come %{user_name}"
         logout: Logout
