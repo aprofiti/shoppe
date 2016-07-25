@@ -753,46 +753,46 @@ it:
 
     settings:
 
-      settings: Settings
-      system_settings: System Settings
-      demo_mode_error: You cannot make changes to settings in demo mode. Sorry about that.
-      update_notice:  Settings have been updated successfully.
+      settings: Impostazioni
+      system_settings: Impostazioni di Sistema
+      demo_mode_error: Non puoi modificare le impostazioni nella modalità demo. Ci scusiamo per questo.
+      update_notice:  Le Impostazioni sono state aggiornate con successo.
 
       types:
         # Force certain settings to certain type
-        demo_mode: boolean
+        demo_mode: booleano
 
       labels:
         # Labels for fields go here
-        email_address: Store E-Mail Address
-        store_name: Store Name
-        currency_unit: Currency Unit
-        tax_name: Tax Name
-        demo_mode: Demo Mode
+        email_address: Indirizzo E-mail del Negozio
+        store_name: Nome Negozio
+        currency_unit: Unità Moneta
+        tax_name: Nome Imposta
+        demo_mode: Modalità demo
 
       options:
         # Options for boolean settings
         demo_mode:
-          affirmative: Enabled
-          negative: Disabled
+          affirmative: Abilitato
+          negative: Disabilitato
 
       help:
         # Help text for individual fields
-        currency_unit: The symbol to be displayed before all numbers which relate to money. Only applies to the admin interface and must be implemented separately in your base application.
-        demo_mode: If enabled, your Shoppe admin interface will allow any users to login and will not permit changes to your users. This should be used with caution and never enabled for a production store.
-        email_address: The e-mail address to use when sending outbound messages. Must just be an e-mail address.
-        store_name: This is the name of your store which will be used through the Shoppe admin interface as well as in the default outbound e-mail messages.
-        tax_name: The name for "Tax" which will be displayed in your admin interface. Commonly replaced with VAT in European countries.
+        currency_unit: Il simbolo che viene visualizzato in tutte le situazioni che si riferiscono a del denaro. Si applica solo all'interfaccia di amministrazione e va implementato separatamente nella tua applicazione.
+        demo_mode: Se abilitato, l'interfaccia di amministrazione di Shoppe abilitera tutti gli utenti ad effettuare il login e non permettera modifice ai tuoi utenti. Questo dovrebbe essere utilizzato con precauzione e mai abilitato in un negozio di produzione.
+        email_address: L'indirizzo e-mail da utilizzare quando vengono inviati messaggi in uscita. Deve essere un indirizzo e-mail.
+        store_name: Questo è il nome del negozio che verrà utilizzato nell'interfaccia di amministrazione di Shoppe e nei messaggi e-mail in uscita.
+        tax_name: Il nome per "Tassa" che viene visualizzato nell'interfaccia di amministrazione. Comunemente rimpiazzato con VAT nelle Nazioni Europee.
 
-      save_settings: Save Settings
-      page_title: Settings
+      save_settings: Sava Impostazioni
+      page_title: Impostazioni
 
       defaults:
         currency_unit: $
-        demo_mode: false
+        demo_mode: falso
         email_address: sales@example.com
         store_name: Widgets Inc.
-        tax_name: Tax
+        tax_name: Tassa
 
   layouts:
     shoppe:
